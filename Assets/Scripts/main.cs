@@ -24,7 +24,7 @@ public class main : MonoBehaviour
 
     void Start()
     {
-        isPause = true;
+        isPause =true;
         inGameTime_min = 0;
         dtime = 0;
         gameStartEvent.TriggerEvent();
